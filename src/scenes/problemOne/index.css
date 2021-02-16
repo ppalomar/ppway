@@ -1,0 +1,32 @@
+.problemOneContainer{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.problemOneContainer > div {
+    min-width: 478px;
+}
+
+.problemOneContainer input.target{
+    border-radius: 2px;
+    height: 30px;
+    width: 60px;
+    margin-right: 20px;
+}
+
+.problemOneContainer button {
+    width: 195px;
+}
+
+.problemOneContainer .row {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
