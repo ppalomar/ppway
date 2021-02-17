@@ -19,8 +19,8 @@
     margin-right: 20px;
 }
 
-.problemOneContainer button {
-    width: 195px;
+.problemOneContainer button, .problemOneContainer .target > div, .problemOneContainer .data > label {
+    width: 50%;
 }
 
 .problemOneContainer .row {

@@ -11,7 +11,7 @@ import './index.css';
 
 const ProblemOneScene = () => {
     const [data, setData] = React.useState(null);
-    const [target, setTarget] = React.useState(null);
+    const [target, setTarget] = React.useState(0);
     const [solution, setSolution] = React.useState(null);
 
     const parseData = data => {
@@ -22,23 +22,25 @@ const ProblemOneScene = () => {
         setSolution([twoSum(data, target), threeSum(data, target)])
     }
 
-    const isEvaluateDisabled = !data || !target;
     const twoSumSolution = solution?.[0];
     const threeSumSolution = solution?.[1];
+    const targetError = isNaN(target);
+    const isEvaluateDisabled = !data || !target || targetError;
+    const helperText = targetError ? "Target should be an integer" : "";
 
     return (
         <div className='problemOneContainer'>
             <Paper elevation={3}>
-                <div className='row'>
+                <div className='row header'>
                     <h1>Problem One</h1>
                 </div>
-                <div className='row'>
+                <div className='row data'>
                     <DataLoader callback={parseData}/>
                 </div>
-                <div className='row'>
-                    <TextField id="outlined-target" label="Target" variant="outlined" onChange={(e) => setTarget(e.target.value)} />
+                <div className='row target'>
+                    <TextField size="small" error={!!targetError} helperText={helperText} id="outlined-target" label="Target" variant="outlined" onChange={(e) => setTarget(e.target.value)} />
                 </div>
-                <div className='row'>
+                <div className='row evaluate'>
                     <Button disabled={isEvaluateDisabled} onClick={evaluate} variant="contained" color="primary">
                         Evaluate
                     </Button>

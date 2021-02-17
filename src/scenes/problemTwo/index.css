@@ -1,0 +1,25 @@
+.problemTwoContainer{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.problemTwoContainer > div {
+    min-width: 478px;
+}
+
+.problemTwoContainer button, .problemTwoContainer .data > label {
+    width: 50%;
+}
+
+.problemTwoContainer .row {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}

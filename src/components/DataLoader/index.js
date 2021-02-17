@@ -1,6 +1,8 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
 
+import './index.css';
+
 const DataFileLoader = ({ callback }) => {
   const showFile = async (e) => {
     e.preventDefault()
