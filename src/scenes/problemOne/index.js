@@ -9,9 +9,9 @@ import { twoSum, threeSum } from '../../solvers/problemOneSolver';
 
 import './index.css';
 
-const ProblemOneScene = () => {
-    const [data, setData] = React.useState(null);
-    const [target, setTarget] = React.useState(0);
+const ProblemOneScene = ({ testInjection }) => {
+    const [data, setData] = React.useState(testInjection?.data || null);
+    const [target, setTarget] = React.useState(testInjection?.target || 0);
     const [solution, setSolution] = React.useState(null);
 
     const parseData = data => {
@@ -47,16 +47,16 @@ const ProblemOneScene = () => {
                 </div>
                 <div className='solution'>
                     
-                    {/* Two Sum Solution: Numbers 1093, 927. Multiply: 1013211 */}
+                    {/* Two Sum Solution: Numbers 1093, 927. Multi: 1013211 */}
                     {twoSumSolution && (
                         <Alert severity="success">
-                            Two Sum Solution: {`Numbers ${twoSumSolution.operators[0]}, ${twoSumSolution.operators[1]} | Multiply: ${twoSumSolution.multi}`}
+                            Two Sum Solution: {`Numbers ${twoSumSolution.operators[0]}, ${twoSumSolution.operators[1]} | Multi: ${twoSumSolution.multi}`}
                         </Alert>
                     )}
-                    {/* Three Sum Solution: Numbers 19, 481, 1520 | Multiply: 13891280 */}
+                    {/* Three Sum Solution: Numbers 19, 481, 1520 | Multi: 13891280 */}
                     {threeSumSolution && (
                         <Alert severity="success">
-                            Three Sum Solution: {`Numbers ${threeSumSolution.operators[0]}, ${threeSumSolution.operators[1]}, ${threeSumSolution.operators[2]} | Multiply: ${threeSumSolution.multi}`}
+                            Three Sum Solution: {`Numbers ${threeSumSolution.operators[0]}, ${threeSumSolution.operators[1]}, ${threeSumSolution.operators[2]} | Multi: ${threeSumSolution.multi}`}
                         </Alert>
                     )}
                 </div>

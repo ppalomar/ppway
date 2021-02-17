@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`problemOneSolver threeSum - Returns the correct object (empty input) 1`] = `
+Object {
+  "multi": 1,
+  "operators": Array [],
+}
+`;
+
+exports[`problemOneSolver threeSum - Returns the correct object 1`] = `
+Object {
+  "multi": 241861950,
+  "operators": Array [
+    366,
+    675,
+    979,
+  ],
+}
+`;
+
+exports[`problemOneSolver twoSum - Returns the correct object (empty input) 1`] = `undefined`;
+
+exports[`problemOneSolver twoSum - Returns the correct object 1`] = `
+Object {
+  "multi": 514579,
+  "operators": Array [
+    "1721",
+    "299",
+  ],
+}
+`;

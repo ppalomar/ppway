@@ -1,0 +1,400 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly on load 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="author"
+      >
+        <a
+          href="http://pablopalomar.com/"
+          target="blank"
+        >
+          Pablo Palomar
+        </a>
+      </div>
+      <div
+        class="app"
+      >
+        <div
+          class="problemOneContainer"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation3 MuiPaper-rounded"
+          >
+            <div
+              class="row header"
+            >
+              <h1>
+                Problem One
+              </h1>
+            </div>
+            <div
+              class="row data"
+            >
+              <label
+                aria-disabled="false"
+                class="MuiButtonBase-root MuiButton-root MuiButton-contained"
+                role="button"
+                tabindex="0"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  Select data source
+                  <input
+                    hidden=""
+                    type="file"
+                  />
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </label>
+            </div>
+            <div
+              class="row target"
+            >
+              <div
+                class="MuiFormControl-root MuiTextField-root"
+              >
+                <label
+                  class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-marginDense MuiInputLabel-outlined"
+                  data-shrink="false"
+                  for="outlined-target"
+                  id="outlined-target-label"
+                >
+                  Target
+                </label>
+                <div
+                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+                >
+                  <input
+                    aria-invalid="false"
+                    class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+                    id="outlined-target"
+                    type="text"
+                    value=""
+                  />
+                  <fieldset
+                    aria-hidden="true"
+                    class="PrivateNotchedOutline-root-1 MuiOutlinedInput-notchedOutline"
+                  >
+                    <legend
+                      class="PrivateNotchedOutline-legendLabelled-3"
+                    >
+                      <span>
+                        Target
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+                
+              </div>
+            </div>
+            <div
+              class="row evaluate"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary Mui-disabled Mui-disabled"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  Evaluate
+                </span>
+              </button>
+            </div>
+            <div
+              class="solution"
+            />
+          </div>
+        </div>
+        <div
+          class="problemTwoContainer"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation3 MuiPaper-rounded"
+          >
+            <div
+              class="row header"
+            >
+              <h1>
+                Problem Two
+              </h1>
+            </div>
+            <div
+              class="row data"
+            >
+              <label
+                aria-disabled="false"
+                class="MuiButtonBase-root MuiButton-root MuiButton-contained"
+                role="button"
+                tabindex="0"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  Select data source
+                  <input
+                    hidden=""
+                    type="file"
+                  />
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </label>
+            </div>
+            <div
+              class="row evaluate"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary Mui-disabled Mui-disabled"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  Evaluate
+                </span>
+              </button>
+            </div>
+            <div
+              class="solution"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="author"
+    >
+      <a
+        href="http://pablopalomar.com/"
+        target="blank"
+      >
+        Pablo Palomar
+      </a>
+    </div>
+    <div
+      class="app"
+    >
+      <div
+        class="problemOneContainer"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation3 MuiPaper-rounded"
+        >
+          <div
+            class="row header"
+          >
+            <h1>
+              Problem One
+            </h1>
+          </div>
+          <div
+            class="row data"
+          >
+            <label
+              aria-disabled="false"
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained"
+              role="button"
+              tabindex="0"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                Select data source
+                <input
+                  hidden=""
+                  type="file"
+                />
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </label>
+          </div>
+          <div
+            class="row target"
+          >
+            <div
+              class="MuiFormControl-root MuiTextField-root"
+            >
+              <label
+                class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-marginDense MuiInputLabel-outlined"
+                data-shrink="false"
+                for="outlined-target"
+                id="outlined-target-label"
+              >
+                Target
+              </label>
+              <div
+                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+              >
+                <input
+                  aria-invalid="false"
+                  class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+                  id="outlined-target"
+                  type="text"
+                  value=""
+                />
+                <fieldset
+                  aria-hidden="true"
+                  class="PrivateNotchedOutline-root-1 MuiOutlinedInput-notchedOutline"
+                >
+                  <legend
+                    class="PrivateNotchedOutline-legendLabelled-3"
+                  >
+                    <span>
+                      Target
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+              
+            </div>
+          </div>
+          <div
+            class="row evaluate"
+          >
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary Mui-disabled Mui-disabled"
+              disabled=""
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                Evaluate
+              </span>
+            </button>
+          </div>
+          <div
+            class="solution"
+          />
+        </div>
+      </div>
+      <div
+        class="problemTwoContainer"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation3 MuiPaper-rounded"
+        >
+          <div
+            class="row header"
+          >
+            <h1>
+              Problem Two
+            </h1>
+          </div>
+          <div
+            class="row data"
+          >
+            <label
+              aria-disabled="false"
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained"
+              role="button"
+              tabindex="0"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                Select data source
+                <input
+                  hidden=""
+                  type="file"
+                />
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </label>
+          </div>
+          <div
+            class="row evaluate"
+          >
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary Mui-disabled Mui-disabled"
+              disabled=""
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                Evaluate
+              </span>
+            </button>
+          </div>
+          <div
+            class="solution"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

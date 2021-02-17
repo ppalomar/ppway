@@ -8,8 +8,8 @@ import { stringConstraint, stringConstraintV2 } from '../../solvers/problemTwoSo
 
 import './index.css';
 
-const ProblemTwoScene = () => {
-    const [data, setData] = React.useState(null);
+const ProblemTwoScene = ({ testInjection }) => {
+    const [data, setData] = React.useState(testInjection?.data || null);
     const [solution, setSolution] = React.useState(null);
 
     const parseData = data => {
@@ -40,16 +40,16 @@ const ProblemTwoScene = () => {
                 </div>
                 <div className='solution'>
                     
-                    {/* String Constraint Solution: 666 are valid */}
+                    {/* String Constraint Solution: 666 valid */}
                     {stringConstraintSolution && (
                         <Alert severity="success">
-                            String Constraint Solution: {`${stringConstraintSolution} are valid`}
+                            String Constraint Solution: {`${stringConstraintSolution} valid`}
                         </Alert>
                     )}
-                    {/* String Constraint Solution V2: 670 are valid */}
+                    {/* String Constraint Solution V2: 670 valid */}
                     {stringConstraintV2Solution && (
                         <Alert severity="success">
-                            String Constraint V2 Solution: {`${stringConstraintV2Solution} are valid`}
+                            String Constraint V2 Solution: {`${stringConstraintV2Solution} valid`}
                         </Alert>
                     )}
                 </div>
