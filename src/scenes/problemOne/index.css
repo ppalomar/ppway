@@ -3,13 +3,13 @@
     flex-direction: column;
     flex: 1;
     padding: 20px;
-
-    align-items: center;
-    justify-content: center;
+    margin-top: 50px;
+    margin-left: 10%;
 }
 
 .problemOneContainer > div {
-    min-width: 478px;
+    width: 500px;
+    min-height: 320px;
 }
 
 .problemOneContainer input.target{

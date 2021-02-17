@@ -3,13 +3,12 @@
     flex-direction: column;
     flex: 1;
     padding: 20px;
-
-    align-items: center;
-    justify-content: center;
+    margin-top: 50px;
 }
 
 .problemTwoContainer > div {
-    min-width: 478px;
+    width: 500px;
+    min-height: 320px;
 }
 
 .problemTwoContainer button, .problemTwoContainer .data > label {
@@ -22,4 +21,10 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
+}
+
+@media (max-width: 1300px) {
+    .problemTwoContainer {
+        margin-left: 10%;
+    }
 }

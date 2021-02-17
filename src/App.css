@@ -1,8 +1,20 @@
 body {
     margin: 0;
+    font-family: 'Exo', sans-serif;
 }
 
 .app {
     display: flex;
-    font-family: 'Exo', sans-serif;
+}
+
+.author {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+@media (max-width: 1300px) {
+    .app {
+        flex-direction: column;
+    }
 }

@@ -5,10 +5,13 @@ import './App.css'
 
 function App() {
   return (
-    <div className="app">
-      <ProblemOne />
-      <ProblemTwo />
-    </div>
+    <>
+      <div className='author'><a href='http://pablopalomar.com/' target='blank'>Pablo Palomar</a></div>
+      <div className="app">
+        <ProblemOne />
+        <ProblemTwo />
+      </div>
+    </>
   );
 }
 
